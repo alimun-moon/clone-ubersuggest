@@ -1,0 +1,242 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    display: block;
+}
+
+.inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.inner p{
+    max-width: 100%;
+    color: #26282d;
+    font-size: 15px;
+    line-height: 1.66667;
+}
+
+.inner img{
+    display: none;
+}
+
+.navbar{
+    background-color: #f16334;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+.header{
+    text-align: left;
+    width: 100%;
+    background-color: #f16334;
+}
+
+.head{
+    display: flex;
+}
+
+.head select option{
+    background-color: white;
+    color: black;
+}
+
+.head h1{
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 1em;
+}
+
+.header hr{
+    border: .5px solid rgb(211, 156, 131);
+}
+
+.header select{
+    margin-top: 5px;
+    width: auto;
+    margin-left: 1em;
+    height: 100%;
+    background-color: #f16334;
+    color: white;
+}
+
+.menu{
+    margin-top: 10px;
+    background-color: #f4825d;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.dropdown a{
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+
+.dropdown a:hover{
+    margin-top: 1px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.dropdown button{
+    margin-top: 15px;
+    padding: 5px;
+    height: 35px;
+    width: 100px;
+    background-color: #4285f4;
+    font-size: 12px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+}
+
+.menu select ul{
+    list-style-type: none;
+}
+
+.form-ubersuggest{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-ubersuggest h1{
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+.description{
+    font-size: 130%;
+    line-height: 1.66667;
+    margin: 2em auto 0;
+}
+
+.form-wrapper {
+    width: 100%;
+    margin: 50px auto;
+    background-color: #f16334;
+    padding: 8px;
+    border-radius: 2px;
+  }
+
+  .form-wrapper select option{
+    background-color: white;
+    color: black;
+}
+
+  
+input,
+select,
+button {
+    padding: 20px 16px;
+    border-radius: 2px;
+    border: none;
+    background-color: #f4825d;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 1px;
+}
+
+input {
+    width: 93.2%;
+}
+
+input::placeholder {
+    color: white;
+}
+
+select {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    color: #f16334;
+    background-color: #ffffff;
+    font-weight: 600;
+    font-family: cursive;
+}
+
+div{
+    display: block;
+}
+
+.page-tools-features{
+    padding: 75px 0;
+    text-align: center;
+}
+
+.feature-text p{
+    font-size: 50%;
+}
+
+.feature-title{
+    font-weight: bold;
+    margin-bottom: .53571em;
+    font-size: 34px;
+    line-height: 1.17647;
+}
+
+.page-tools-features .feature-description{
+    font-size: 17px;
+    line-height: 2.17647;
+    margin-bottom: 2.17647em;
+}
+
+
+
+
+.footer{
+    padding-top: 30px;
+    font-size: 12px;
+    padding-left: 1em;
+    background-color:  #f16334;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    width: 99.9%;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.foot-end{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.foot-end p{
+    opacity: .5;
+}
+
+.end{
+    margin-top: 5%;
+    margin-left: 2em;
+    align-items: center;
+    font-size: 10px;
+}
+
+.end .fa{
+    margin: 0 8px;
+}
+
+.fa:hover{
+    opacity: 0.7;
+    text-decoration: none;
+}
